@@ -1,0 +1,13 @@
+{
+    "name": "iMemory - keep it",
+    "short_name": "iMemory",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/images/default.png",
+            "type": "image/png",
+            "sizes": "300x300"
+        }
+    ]
+}
