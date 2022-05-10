@@ -1,4 +1,5 @@
-// Register the service worker if available.
+// Serviceworker wird wenn möglich registriert
+// Feedback wird zurückgegeben
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js').then(function(reg) {
         console.log('Successfully registered service worker', reg);
