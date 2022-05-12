@@ -42,6 +42,15 @@ function updateCurrentText() {
     currentElement.innerText = `${currentActiveCard + 1}/${cardsElement.length}`;
 }
 
+function getCardsData() {
+   const cards = JSON.parse(localStorage.getItem("cards"));
+   return cards === null ? [] : cards;
+ }
+
+ function setCardsData(cards) {
+   localStorage.setItem("cards", JSON.stringify(cards));
+   history.go(0);
+ }
 
 
 // Event Listeners

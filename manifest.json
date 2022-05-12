@@ -10,4 +10,8 @@
             "sizes": "300x300"
         }
     ]
+    "description" : "A Flashcard App for learning.",
+    "categories": ["learning", "education", "productivity"],
+
+
 }
