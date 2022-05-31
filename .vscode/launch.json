@@ -8,7 +8,7 @@
             "name": "Launch Webserver",
             "type": "node",
             "request": "launch",
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/flashcardapp",
             "runtimeExecutable": "npm",
             "runtimeArgs": [ "start" ]
         }
